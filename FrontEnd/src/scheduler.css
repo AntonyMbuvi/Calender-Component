@@ -1,0 +1,41 @@
+.calenderPage {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.calendar-container {
+    grid-column: 2 / 4;
+    padding: 7% 15%;
+}
+.tasks-container {
+    grid-column: 4 / 5;
+    padding: 10%;
+}
+.allEntries {
+    grid-column: 1 / 2;
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+}
+.entry {
+    padding: 5px;
+    border: 1px black solid;
+}
+.entryP {
+    margin: 0;
+    padding: 0;
+}
+.addTask {
+    background-color: darkolivegreen;
+}
+.allDateTasks {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+.singleTask {
+    border: 1px solid black;
+    padding: 5px;
+}
